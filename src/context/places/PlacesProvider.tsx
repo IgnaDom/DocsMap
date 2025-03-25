@@ -5,11 +5,14 @@ import { getUserLocation } from "../../helpers";
 import { searchApi } from "../../apis";
 import { Feature, PlacesResponce } from "../../interfaces/places"
 
+import data from '../../json/especialistas.json'
+
 export interface PlacesState {
     isLoading: boolean;
     userLocation?: [ number , number];
     isLoadingPlaces: boolean;
     places: Feature[];
+    delate: boolean;
 }
 
 const INITIAL_STATE: PlacesState = {
@@ -17,6 +20,7 @@ const INITIAL_STATE: PlacesState = {
     userLocation: undefined,
     isLoadingPlaces: false,
     places: [],
+    delate: false,
 }
 
 interface Props{
@@ -33,21 +37,36 @@ export const PlacesProvider = ({ children }:Props) => {
     }, []);
 
     const searchPlacesByTerm = async( query: string): Promise<Feature[]> => {
+        
+        dispatch({ type:'setDelate',payload: true});
 
-        if( query.length === 0) return []; 
+        if( query.length === 0){
+            dispatch({ type:'setPlaces',payload: [] });
+            return [];
+        }
+        
         if( !state.userLocation ) throw new Error('No se encontro la ubicacion inicial');
 
         dispatch({ type: 'setLoadingPaces' });
+        dispatch({ type:'setDelate',payload: false});
         
-        const resp = await searchApi.get<PlacesResponce>(`/${ query }.json`,{
-            params: {
-                proximity: state.userLocation.join(',')
-            }
-        });
+        // const resp = await searchApi.get<PlacesResponce>(`/${ query }.json`,{
+        //     params: {
+        //         proximity: state.userLocation.join(',')
+        //     }
+        // });
 
-        dispatch({ type: 'setPlaces', payload: resp.data.features});
+        // console.log(resp.data.features[0]);
 
-        return resp.data.features;   
+        // return resp.data.features;
+
+        const features:any[] = [];
+
+        data.map( feature => {if(feature.Especialidad === query) features.push(feature)});
+
+        dispatch({ type: 'setPlaces', payload: features});
+        
+        return features;   
     }
 
     return (

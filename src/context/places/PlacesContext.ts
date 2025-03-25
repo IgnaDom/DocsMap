@@ -6,6 +6,7 @@ export interface PlacesContextProps {
     isLoading: boolean;
     userLocation?: [ number , number ];
     isLoadingPlaces: boolean;
+    delate: boolean;
     places: Feature[];
 
     //Methods

@@ -1,0 +1,338 @@
+[
+    {
+        "Especialidad": "Psicologia",
+        "id": "address.8115504186932818",
+        "type": "Feature",
+        "place_type": [
+            "address"
+        ],
+        "relevance": 1,
+        "properties": {
+            "accuracy": "interpolated",
+            "override:postcode": "",
+            "mapbox_id": "dXJuOm1ieGFkci1pdHA6ZXlKc2FXMXBkQ0k2SWpVaUxDSnNZVzVuZFdGblpTSTZJbVZ6SWl3aWNISnZlR2x0YVhSNUlqb2lMVFUzTGpVME16ZzRORGdzTFRNM0xqazVOemMzTWpnaUxDSjJaWEp6YVc5dUlqbzFMQ0pqWVd4c1ltRmpheUk2Ym5Wc2JDd2ljU0k2SWtWdWRISmxJRkxEclc5eklERTVORFVzSUVJM05qQXdJRTFoY2lCa1pXd2dVR3hoZEdFc0lGQnliM1pwYm1OcFlTQmtaU0JDZFdWdWIzTWdRV2x5WlhNaWZROjA"
+        },
+        "text_es": "Lic. en Psicología Elizabeth Melo",
+        "place_name_es": "Entre Ríos 1945, Mar del Plata, Provincia de Buenos Aires, B7600, Argentina",
+        "text": "Lic. en Psicología Elizabeth Melo",
+        "place_name": "Entre Ríos 1945, Mar del Plata, Provincia de Buenos Aires, B7600, Argentina",
+        "center": [
+            -57.544464,
+            -38.003425
+        ],
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -57.544464,
+                -38.003425
+            ],
+            "interpolated": true
+        },
+        "address": "1945",
+        "context": [
+            {
+                "id": "postcode.5852683",
+                "mapbox_id": "dXJuOm1ieHBsYzpXVTRM",
+                "text_es": "B7600",
+                "text": "B7600"
+            },
+            {
+                "id": "place.17311755",
+                "mapbox_id": "dXJuOm1ieHBsYzpBUWdvQ3c",
+                "wikidata": "Q52607",
+                "text_es": "Mar del Plata",
+                "language_es": "es",
+                "text": "Mar del Plata",
+                "language": "es"
+            },
+            {
+                "id": "region.17419",
+                "mapbox_id": "dXJuOm1ieHBsYzpSQXM",
+                "wikidata": "Q44754",
+                "short_code": "AR-B",
+                "text_es": "Provincia de Buenos Aires",
+                "language_es": "es",
+                "text": "Provincia de Buenos Aires",
+                "language": "es"
+            },
+            {
+                "id": "country.8715",
+                "mapbox_id": "dXJuOm1ieHBsYzpJZ3M",
+                "wikidata": "Q414",
+                "short_code": "ar",
+                "text_es": "Argentina",
+                "language_es": "es",
+                "text": "Argentina",
+                "language": "es"
+            }
+        ]
+    },{
+        "Especialidad": "Psicologia",
+        "id": "address.8319878851910966",
+        "type": "Feature",
+        "place_type": [
+            "address"
+        ],
+        "relevance": 0.814815,
+        "properties": {
+            "accuracy": "interpolated",
+            "override:postcode": "",
+            "mapbox_id": "dXJuOm1ieGFkci1pdHA6ZXlKc2FXMXBkQ0k2SWpVaUxDSnNZVzVuZFdGblpTSTZJbVZ6SWl3aWNISnZlR2x0YVhSNUlqb2lMVFUzTGpVME16ZzRORGdzTFRNM0xqazVOemMzTWpnaUxDSjJaWEp6YVc5dUlqbzFMQ0pqWVd4c1ltRmpheUk2Ym5Wc2JDd2ljU0k2SWtQRHMzSmtiMkpoSURFek9UY2dWR2x0WW5KbElESXNJRUkzTmpBd0lFMWhjaUJrWld3Z1VHeGhkR0VzSUZCeWIzWnBibU5wWVNCa1pTQkNkV1Z1YjNNZ1FXbHlaWE1pZlE6MA"
+        },
+        "text_es": "Lic. Diego dos Santos",
+        "place_name_es": "Córdoba 1397, Mar del Plata, Provincia de Buenos Aires, B7600, Argentina",
+        "text": "Lic. Diego dos Santos",
+        "place_name": "Córdoba 1397, Mar del Plata, Provincia de Buenos Aires, B7600, Argentina",
+        "center": [
+            -57.544854,
+            -37.996946
+        ],
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -57.544854,
+                -37.996946
+            ],
+            "interpolated": true
+        },
+        "address": "1397",
+        "context": [
+            {
+                "id": "postcode.5852683",
+                "mapbox_id": "dXJuOm1ieHBsYzpXVTRM",
+                "text_es": "B7600",
+                "text": "B7600"
+            },
+            {
+                "id": "place.17311755",
+                "mapbox_id": "dXJuOm1ieHBsYzpBUWdvQ3c",
+                "wikidata": "Q52607",
+                "text_es": "Mar del Plata",
+                "language_es": "es",
+                "text": "Mar del Plata",
+                "language": "es"
+            },
+            {
+                "id": "region.17419",
+                "mapbox_id": "dXJuOm1ieHBsYzpSQXM",
+                "wikidata": "Q44754",
+                "short_code": "AR-B",
+                "text_es": "Provincia de Buenos Aires",
+                "language_es": "es",
+                "text": "Provincia de Buenos Aires",
+                "language": "es"
+            },
+            {
+                "id": "country.8715",
+                "mapbox_id": "dXJuOm1ieHBsYzpJZ3M",
+                "wikidata": "Q414",
+                "short_code": "ar",
+                "text_es": "Argentina",
+                "language_es": "es",
+                "text": "Argentina",
+                "language": "es"
+            }
+        ]
+    },{
+        "Especialidad": "Psicologia",
+        "id": "address.4086329065008778",
+        "type": "Feature",
+        "place_type": [
+            "address"
+        ],
+        "relevance": 1,
+        "properties": {
+            "accuracy": "interpolated",
+            "override:postcode": "",
+            "mapbox_id": "dXJuOm1ieGFkci1pdHA6ZXlKc2FXMXBkQ0k2SWpVaUxDSnNZVzVuZFdGblpTSTZJbVZ6SWl3aWNISnZlR2x0YVhSNUlqb2lMVFUzTGpVME1qVTRNeklzTFRNNExqQXdNamczTmpJaUxDSjJaWEp6YVc5dUlqbzFMQ0pqWVd4c1ltRmpheUk2Ym5Wc2JDd2ljU0k2SWtaaGJIVmphRzhnTXpZME5pd2dRamMyTURBZ1RXRnlJR1JsYkNCUWJHRjBZU3dnVUhKdmRtbHVZMmxoSUdSbElFSjFaVzV2Y3lCQmFYSmxjeUo5OjA"
+        },
+        "text_es": "Lic. Natalia Silván",
+        "place_name_es": "Falucho 3646, Mar del Plata, Provincia de Buenos Aires, B7600, Argentina",
+        "text": "Lic. Natalia Silván",
+        "place_name": "Falucho 3646, Mar del Plata, Provincia de Buenos Aires, B7600, Argentina",
+        "center": [
+            -57.562072,
+            -37.999767
+        ],
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -57.562072,
+                -37.999767
+            ],
+            "interpolated": true
+        },
+        "address": "3646",
+        "context": [
+            {
+                "id": "postcode.5852683",
+                "mapbox_id": "dXJuOm1ieHBsYzpXVTRM",
+                "text_es": "B7600",
+                "text": "B7600"
+            },
+            {
+                "id": "place.17311755",
+                "mapbox_id": "dXJuOm1ieHBsYzpBUWdvQ3c",
+                "wikidata": "Q52607",
+                "text_es": "Mar del Plata",
+                "language_es": "es",
+                "text": "Mar del Plata",
+                "language": "es"
+            },
+            {
+                "id": "region.17419",
+                "mapbox_id": "dXJuOm1ieHBsYzpSQXM",
+                "wikidata": "Q44754",
+                "short_code": "AR-B",
+                "text_es": "Provincia de Buenos Aires",
+                "language_es": "es",
+                "text": "Provincia de Buenos Aires",
+                "language": "es"
+            },
+            {
+                "id": "country.8715",
+                "mapbox_id": "dXJuOm1ieHBsYzpJZ3M",
+                "wikidata": "Q414",
+                "short_code": "ar",
+                "text_es": "Argentina",
+                "language_es": "es",
+                "text": "Argentina",
+                "language": "es"
+            }
+        ]
+    },{
+        "Especialidad": "Psiquiatria",
+        "id": "address.3695219768648220",
+        "type": "Feature",
+        "place_type": [
+            "address"
+        ],
+        "relevance": 1,
+        "properties": {
+            "accuracy": "interpolated",
+            "override:postcode": "",
+            "mapbox_id": "dXJuOm1ieGFkci1pdHA6ZXlKc2FXMXBkQ0k2SWpVaUxDSnNZVzVuZFdGblpTSTZJbVZ6SWl3aWNISnZlR2x0YVhSNUlqb2lMVFUzTGpVME1qVTRNeklzTFRNNExqQXdNamczTmpJaUxDSjJaWEp6YVc5dUlqbzFMQ0pqWVd4c1ltRmpheUk2Ym5Wc2JDd2ljU0k2SWxKaGQzTnZiaUF5TkRNeExDQkNOell3TUNCTllYSWdaR1ZzSUZCc1lYUmhMQ0JRY205MmFXNWphV0VnWkdVZ1FuVmxibTl6SUVGcGNtVnpJbjA6MA"
+        },
+        "text_es": "Ricardo Rojas",
+        "place_name_es": "Rawson 2431, Mar del Plata, Provincia de Buenos Aires, B7600, Argentina",
+        "text": "Ricardo Rojas",
+        "place_name": "Rawson 2431, Mar del Plata, Provincia de Buenos Aires, B7600, Argentina",
+        "center": [
+            -57.551703,
+            -38.008349
+        ],
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -57.551703,
+                -38.008349
+            ],
+            "interpolated": true
+        },
+        "address": "2431",
+        "context": [
+            {
+                "id": "postcode.5852683",
+                "mapbox_id": "dXJuOm1ieHBsYzpXVTRM",
+                "text_es": "B7600",
+                "text": "B7600"
+            },
+            {
+                "id": "place.17311755",
+                "mapbox_id": "dXJuOm1ieHBsYzpBUWdvQ3c",
+                "wikidata": "Q52607",
+                "text_es": "Mar del Plata",
+                "language_es": "es",
+                "text": "Mar del Plata",
+                "language": "es"
+            },
+            {
+                "id": "region.17419",
+                "mapbox_id": "dXJuOm1ieHBsYzpSQXM",
+                "wikidata": "Q44754",
+                "short_code": "AR-B",
+                "text_es": "Provincia de Buenos Aires",
+                "language_es": "es",
+                "text": "Provincia de Buenos Aires",
+                "language": "es"
+            },
+            {
+                "id": "country.8715",
+                "mapbox_id": "dXJuOm1ieHBsYzpJZ3M",
+                "wikidata": "Q414",
+                "short_code": "ar",
+                "text_es": "Argentina",
+                "language_es": "es",
+                "text": "Argentina",
+                "language": "es"
+            }
+        ]
+    },{
+        "Especialidad": "Psiquiatria",
+        "id": "address.5824407139338126",
+        "type": "Feature",
+        "place_type": [
+            "address"
+        ],
+        "relevance": 1,
+        "properties": {
+            "accuracy": "interpolated",
+            "override:postcode": "",
+            "mapbox_id": "dXJuOm1ieGFkci1pdHA6ZXlKc2FXMXBkQ0k2SWpVaUxDSnNZVzVuZFdGblpTSTZJbVZ6SWl3aWNISnZlR2x0YVhSNUlqb2lMVFUzTGpVME1qVTRNeklzTFRNNExqQXdNamczTmpJaUxDSjJaWEp6YVc5dUlqbzFMQ0pqWVd4c1ltRmpheUk2Ym5Wc2JDd2ljU0k2SWtGc2JXbHlZVzUwWlNCQ2NtOTNiaUF6TVRnMUluMDow"
+        },
+        "text_es": "Almirante Brown",
+        "place_name_es": "Almirante Brown 3185, Mar del Plata, Provincia de Buenos Aires, B7600, Argentina",
+        "text": "Lic. Valeria Marianelli",
+        "place_name": "Almirante Brown 3185, Mar del Plata, Provincia de Buenos Aires, B7600, Argentina",
+        "center": [
+            -57.556754,
+            -38.00133
+        ],
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -57.556754,
+                -38.00133
+            ],
+            "interpolated": true
+        },
+        "address": "3185",
+        "context": [
+            {
+                "id": "postcode.5852683",
+                "mapbox_id": "dXJuOm1ieHBsYzpXVTRM",
+                "text_es": "B7600",
+                "text": "B7600"
+            },
+            {
+                "id": "place.17311755",
+                "mapbox_id": "dXJuOm1ieHBsYzpBUWdvQ3c",
+                "wikidata": "Q52607",
+                "text_es": "Mar del Plata",
+                "language_es": "es",
+                "text": "Mar del Plata",
+                "language": "es"
+            },
+            {
+                "id": "region.17419",
+                "mapbox_id": "dXJuOm1ieHBsYzpSQXM",
+                "wikidata": "Q44754",
+                "short_code": "AR-B",
+                "text_es": "Provincia de Buenos Aires",
+                "language_es": "es",
+                "text": "Provincia de Buenos Aires",
+                "language": "es"
+            },
+            {
+                "id": "country.8715",
+                "mapbox_id": "dXJuOm1ieHBsYzpJZ3M",
+                "wikidata": "Q414",
+                "short_code": "ar",
+                "text_es": "Argentina",
+                "language_es": "es",
+                "text": "Argentina",
+                "language": "es"
+            }
+        ]
+    }
+]

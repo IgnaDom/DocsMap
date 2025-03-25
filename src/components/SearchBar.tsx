@@ -7,7 +7,7 @@ export const SearchBar = () => {
     const debounceRref = useRef<NodeJS.Timeout>(null);
     const { searchPlacesByTerm } = useContext(PlacesContext)
 
-    const onQueryChanged = ( event: ChangeEvent<HTMLInputElement> ) => {
+    const onQueryChanged = ( event: ChangeEvent<HTMLSelectElement> ) => {
             if( debounceRref.current ){
                 clearTimeout(debounceRref.current);
             }
@@ -20,13 +20,19 @@ export const SearchBar = () => {
 
     return (
         <div className="search-container">
-            <input 
+            {/* <input 
                 id="search-container"
                 type="text" 
                 className="form-control"
                 placeholder="Buscar lugar..."
                 onChange={onQueryChanged}
-            />
+            /> */}
+            <select className="form-select" aria-label="Default select example" onChange={onQueryChanged}>
+                <option defaultValue={""}>Seleccionar especialidad</option>
+                <option value="Psicologia">Psicologia</option>
+                <option value="Psiquiatria">Psiquiatria</option>
+                <option value="Nutricion">Nutricion</option>
+            </select>
 
             <SearchResults></SearchResults>
         </div>

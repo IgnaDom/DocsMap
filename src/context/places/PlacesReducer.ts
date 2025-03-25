@@ -6,6 +6,7 @@ type PlacesAction =
 | { type: 'setUserLocation', payload: [ number , number ] }
 | { type: 'setLoadingPaces' }
 | { type: 'setPlaces', payload: Feature[] }
+| { type: 'setDelate', payload: boolean}
 
 export const PlacerReducer = ( state:PlacesState , action: PlacesAction): PlacesState => {
 
@@ -27,6 +28,11 @@ export const PlacerReducer = ( state:PlacesState , action: PlacesAction): Places
                 ...state,
                 isLoadingPlaces: false,
                 places: action.payload
+            }
+        case 'setDelate':
+            return {
+                ...state,
+                delate: action.payload
             }
         default:
             return state;
